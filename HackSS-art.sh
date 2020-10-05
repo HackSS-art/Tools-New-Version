@@ -112,10 +112,28 @@ echo "					   ============================" | lolcat
 echo " 					   15.        ☆ About ☆"
 echo "					   ============================" | lolcat
 echo "					   16.         ☆ Ext ☆"
+echo "                                       =============================" | Locat
+echo "                                     17.           RHCRYPTO"
 echo ""
 echo   "╭─0day" |lolcat
 read -p"╰─#" pil;
-
+# RHCRYPTO
+ echo "Installer RHCRYPTO"
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+git clone  https://github.com/rockyhandsm2k/RHCRYPTOgit
+echo -e "${y} cara menggunakan RHCRYPTO"
+echo -e "${y} cd RHCRYPTO/"
+echo -e "${y} python encrypter.py"
+cd /data/data/com.termux/files/home/RHCRYPTO/
+python2 /data/data/com.termux/files/home/RHCRYPTO/encrypter.py
+echo
+echo "Successfully..."
+echo "Finish Instalation RHCrypto"
  # Nmap
 
  case $pil in
